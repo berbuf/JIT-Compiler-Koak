@@ -1,0 +1,9 @@
+extern putchar(c:char):void;
+
+def printdensity(d)
+    if d > 8 then
+        putchar(d)
+    else
+        putchar(42);
+
+printdensity(10);

@@ -1,0 +1,1 @@
+def yolo(x y r) 1 + 2 ^2 + x * y * r - 6;

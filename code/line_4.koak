@@ -1,0 +1,7 @@
+extern put(c:char);
+
+def a(i j) i;
+
+def b(j) a(6 + 7, j) + 1;
+
+b(1.);

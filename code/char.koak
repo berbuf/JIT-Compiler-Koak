@@ -1,0 +1,2 @@
+extern putchar(c:char):void;
+putchar(9 + '0');

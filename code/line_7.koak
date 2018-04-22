@@ -1,0 +1,9 @@
+def b(i:int) 6.;
+
+def a(ymin:int ymax:int ystep:int xmin:int xmax:int xstep:int)
+
+    for y = (ymin + 2), y < ymax, ystep in (
+        for x = xmin, x < xmax, xstep in (
+                b( 1 + 3)
+                )
+);
